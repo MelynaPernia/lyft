@@ -3,36 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Lyft</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="assets/icons/icomoon/style.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header id="header">
     <nav class="nav-bar">
       <div class="navbar-header">
-        <img src="assets/images/logo_pink.png" alt="logo-lyft">
+        <img src="assets/images/logo-white.png" alt="logo-lyft">
       </div>
-      <ul class="navbar-nav">
+      <ul class="navbar-nav reset-list rest-text-list">
         <li><a href="#">Drive</a></li>
         <li><a href="#">Explore</a></li>
         <li><a href="#">Help</a></li>
         <li><a href="#">Log in</a></li>
       </ul>
     </nav>
-    <div class="jumbotrom">
+    <div id="jumbotrom">
       <div class="container-jumbotrom">
         <form action="">
-          <h1>TURN MILES</h1>
-          <h2>INTO MONEY</h2>
+          <h1 class="m-0 size-title">TURN MILES</h1>
+          <h2 class="m-0 size-title">INTO MONEY</h2>
           <p>SIGN UP TO DRIVE WITH LYFT.</p>
           <p>
             <input type="text" placeholder="Phone number">
           </p>
-          <button>Become a Driver</button>
-          <button><a href="">Sign Up to Ride</a></button>
-          <p>
+          <button class="btn btn-become">Become a Driver</button>
+          <button class="btn"><a href="">Sign Up to Ride</a></button>
+          <p class="size-parrafo">
             Already applied? <a href="">Check the status of your application here.</a>
           </p>
-          <p>Earn money for inviting friends to drive. <a href="">Learn more</a> </p>
+          <p class="size-parrafo">Earn money for inviting friends to drive. <a href="">Learn more</a> </p>
         </form>
       </div>
     </div>
@@ -40,23 +42,23 @@
 
   <section>
     <div>
-      <h2>A RIDE IN MINUTES</h2>
+      <h2 class="size-title">A RIDE IN MINUTES</h2>
       <p>Request a ride and you’ll be on your way in minutes. Request. Ride. Repeat.</p>
     </div>
     <div>
-      <h2>SERIOUS ABOUT SAFETY</h2>
+      <h2 class="size-title">SERIOUS ABOUT SAFETY</h2>
       <p>From knowing the color of your driver’s car to our 24/7 Trust & Safety Team, we got you.</p>
     </div>
     <div>
-      <h2>Happy drivers.</h2>
-      <h2>Happy riders.</h2>
+      <h2 class="size-title">Happy drivers.</h2>
+      <h2 class="size-title">Happy riders.</h2>
       <p>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</p>
     </div>
   </section>
   <section>
     <div>
       <p>WATCH</p>
-      <h2>AMPLIFY YOUR RIDE</h2>
+      <h2 class="size-title">AMPLIFY YOUR RIDE</h2>
       <p>Lyft´s new emblem. Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
     </div>
     <figure>
@@ -66,7 +68,7 @@
   <section>
     <div>
       <p>WATCH</p>
-      <h2>JUNE</h2>
+      <h2 class="size-title">JUNE</h2>
       <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride-and sharing her life too.</p>
       </div>
       <figure>
@@ -77,7 +79,7 @@
   <section>
       <div>
         <p>WATCH</p>
-        <h2>A GOOD THING GOING</h2>
+        <h2 class="size-title">A GOOD THING GOING</h2>
         <p>Launching on TV and online "Ride on the Bright side" shows how Lyft continues to prioritize happy drivers, short ETAs and safety.</p>
       </div>
       <figure>
@@ -85,68 +87,62 @@
       </figure>
   </section>
   <footer>
-    <div>
-      <ul>
-        <li>DRIVE</li>
-        <li>RIDE</li>
-        <li>LOG IN</li>
-        <li>Help</li>
-        <li>Cities</li>
-        <li>Airports</li>
-        <li>Fare Estimate</li>
-        <li>Free Ride Credits</li>
-        <li>Driver Bonus</li>
-        <li>Gift Cards</li>
-      </ul>
+    <div class="container-footer">
+      <div class="row-footer">
+      <h3>LODIN IN</h3>
+        <ul class="reset-list">
+    
+          <li><a href="">Help</a></li>
+          <li><a href="">Cities</a></li>
+          <li><a href="">Airports</a></li>
+          <li><a href="">Fare Estimate</a></li>
+        </ul>
+      </div>
+      <div class="row-footer">
+        <ul class="reset-list">
+          <li>PARTNER</li>
+          <li>Partnerships</li>
+          <li>Business</li>
+          <li>Developers</li>
+          <li>Events</li>
+        </ul>
+      </div>
+      <div class="row-footer">
+        <ul class="reset-list">
+          <li>LEARN</li>
+          <li>Safety</li>
+          <li>Blog</li>
+          <li>Press</li>
+          <li>Careers</li>
+          <li>Driver Requirements</li>
+          <li>Driver Earnings</li>
+          <li>Driving Jobs</li>
+          <li>Round up & Donate</li>
+        </ul>
+      </div>
+      <div class="row-footer">
+        <figure>
+          <img src="assets/images/appstore.png" alt="App Store">
+        </figure>
+        <figure>
+          <img src="assets/images/google-play.png" alt="Google Play">
+        </figure>
+        <figure>
+          <img src="assets/images/microsoft.png" alt="Microsoft">
+        </figure>
+      </div>
+      <div class="footer-below">
+        <ul class="m-0 reset-list">
+         <li><i class="icon-facebook"></i></li>
+         <li><i class="icon-instagram"></i></a></li>
+         <li><i class="icon-twitter"></i></a></li>
+        </ul>
+        <hr>
+        <p>&copy; 2017 Lyft, Inc. Terms Privacy</p>
+      </div>
+
     </div>
-    <div>
-      <ul>
-        <li>PARTNER</li>
-        <li>Partnerships</li>
-        <li>Business</li>
-        <li>Developers</li>
-        <li>Events</li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>LEARN</li>
-        <li>Safety</li>
-        <li>Blog</li>
-        <li>Press</li>
-        <li>Careers</li>
-        <li>Driver Requirements</li>
-        <li>Driver Earnings</li>
-        <li>Driving Jobs</li>
-        <li>Round up & Donate</li>
-      </ul>
-    </div>
-    <div>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <figure>
-        <img src="" alt="">
-      </figure>
-    </div>
-    <div>
-      <ul>
-       <li><a href=""></a></li>
-       <li><a href=""></a></li>
-       <li><a href=""></a></li>
-      </ul>
-    </div>
-    <hr>
-    <p></p>
+
   </footer>
 </body>
 </html>
