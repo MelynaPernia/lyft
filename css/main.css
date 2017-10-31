@@ -122,6 +122,103 @@
 
 /*----fin - jumbotrom------*/
 
+.container-l {
+  background-color: white;
+  height: 360px;
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-l {
+  color: black;
+  height: 474px;
+  width: 440px;
+  display: inline-block;
+  position: absolute;
+  padding: 25px;
+}
+
+.watch-l {
+  font-size: 10px;
+  margin-bottom: 0;
+  margin-left: 60px;
+}
+
+.title-container-l {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.article-l {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 40px;
+}
+
+.video-l {
+  height: 360px;
+  width: 640px;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  margin-left: 600px;
+}
+
+.container-r {
+  background-color: white;
+  height: 360px;
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-r {
+  color: black;
+  height: 474px;
+  width: 440px;
+  display: inline-block;
+  position: absolute;
+  padding: 25px;
+  margin-left: 650px;
+}
+
+.watch-r {
+  font-size: 10px;
+  margin-bottom: 0;
+  margin-left: 100px;
+}
+
+.title-container-r {
+  font-size: 30px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 300px;
+}
+
+.article-r {
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 100px;
+}
+
+.video-r {
+  height: 360px;
+  width: 640px;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  margin-left: 0;
+}
+
+
+
 
 
 /***********Footer*****************/
