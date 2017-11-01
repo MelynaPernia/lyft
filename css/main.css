@@ -1,46 +1,54 @@
 
- /*********SETEAR*********/
- body {
-   box-sizing: content-box;
-   margin: 0;
-   font-family: 'Montserrat', sans-serif;
- }
+/*-----Setear-----*/
+body {
+  box-sizing: content-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/*-----Fin setear-----*/
 
- .reset-list li {
-   list-style-type: none;
- }
+/*-----Selectores reutilizables-----*/
 
- .rest-text-list li a {
-   text-decoration: none;
-   color: #FFFFFF;
- }
+.reset-list li {
+  list-style-type: none;
+}
 
- .center-text {
-   align-content: center;
- }
+.rest-text-list li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
- .m-0 {
-   margin: 0;
- }
+.center-text {
+  align-content: center;
+}
+
+.m-0 {
+  margin: 0;
+}
 
 .p-0 {
   padding: 0;
 }
- .size-title {
-   font-size: 32px;
- }
+.size-title {
+  font-size: 32px;
+}
 
- .size-parrafo {
-   font-size: 14px;
- }
+.size-parrafo {
+  font-size: 14px;
+}
 
- /**********HEADER************/
+.size-subtitle {
+  font-size: 28px;
+}
+/*-----Fin selectores reutilizables-----*/
+
+/*-----Header-----*/
 .nav-bar {
   background-color: #24103B;
   height: 100px;
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
   z-index: 10000;
 }
 
@@ -62,62 +70,63 @@
   margin-top: 2vh;
   margin-right: 5vh;
 }
-/*---Añadiendo el logo----*/
+
+/*     Añadiendo el logo     */
 .navbar-header img {
   height: 40px;
   width: 50px;
 }
 
-/*----jumbotrom------*/
+/*     Jumbotrom     */
 #jumbotrom {
   background-image: url("../assets/images/hero.gif");
   background-repeat: no-repeat;
   background-size: 80%;
   height: 550px;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .container-jumbotrom {
   background-color: white;
-  width: 570px;
   height: 450px;
+  margin-top: 100px;
   position: absolute;
   right: 0;
   top: 0px;
-  margin-top: 100px;
+  width: 570px;
 }
 
 .container-jumbotrom form {
-  padding: 60px 0 0 60px;
   color: #352384;
+  padding: 60px 0 0 60px;
 }
 
 .container-jumbotrom form input {
-  border-left: none;
-  border-top: none;
-  border-right: none;
   border-bottom-color: rgb(143, 143, 143);
+  border-left: none;
+  border-right: none;
+  border-top: none;
   height: 35px;
   width: 65vh;
 }
 
 .btn {
   background-color: white;
-  font-family: inherit;
   border: none;
+  color: white;
+  font-family: inherit;
   margin: 3vh 0;
   padding: 15px;
-  color: white;
 }
 
 .btn-become {
   background-color: #FF00BF;
   border-radius: 5px;
 }
-/*----fin - jumbotrom------*/
+/*     Fin jumbotrom     */
 
-/***********Seccion-fluid****************/
+/*     Seccion-fluid    */
 #section-fluid {
   background-color: #71278D;
   height: 100vh;
@@ -152,126 +161,57 @@
   padding-top: 5vh;
 }
 
-/***********Fin-Seccion-fluid****************/
+/*     Fin seccion-fluid    */
 
+/*-----Fin header-----*/
 
-.container-l {
+/*-----Container-section----*/
+.container-section {
   background-color: white;
-  height: 360px;
-  width: 100%;
-  display: block;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 0;
+  height: 500px;
 }
 
-.text-l {
-  color: black;
-  height: 474px;
-  width: 440px;
-  display: inline-block;
-  position: absolute;
-  padding: 25px;
+.row-section-left {
+  float:left;
 }
 
-.watch-l {
-  font-size: 10px;
-  margin-bottom: 0;
-  margin-left: 60px;
+.row-section-right {
+  float:right;
 }
 
-.title-container-l {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 0;
-  margin-left: 10px;
+.size-watch {
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.article-l {
-  font-size: 18px;
-  line-height: 30px;
-  margin: 40px;
+.text-section {
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin-top: 5vh;
+  padding: 5vh;
+  width: 60vh;
 }
+/*-----Fin container-section----*/
 
-.video-l {
-  height: 360px;
-  width: 640px;
-  margin: 0;
-  display: inline-block;
-  position: absolute;
-  margin-left: 600px;
-}
-
-.container-r {
-  background-color: white;
-  height: 360px;
-  width: 100%;
-  display: block;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.text-r {
-  color: black;
-  height: 474px;
-  width: 440px;
-  display: inline-block;
-  position: absolute;
-  padding: 25px;
-  margin-left: 650px;
-}
-
-.watch-r {
-  font-size: 10px;
-  margin-bottom: 0;
-  margin-left: 100px;
-}
-
-.title-container-r {
-  font-size: 30px;
-  text-align: left;
-  margin-top: 0;
-  margin-left: 300px;
-}
-
-.article-r {
-  font-size: 18px;
-  line-height: 30px;
-  margin-left: 100px;
-}
-
-.video-r {
-  height: 360px;
-  width: 640px;
-  margin: 0;
-  display: inline-block;
-  position: absolute;
-  margin-left: 0;
-}
-
-
-
-
-
-/***********Footer*****************/
+/*-----Footer----*/
 footer {
   background-color: #333447;
+  clear: left;
 }
 
 .container-footer {
+  color: white;
   padding: 5vh;
   text-align: center;
-  color: white;
 }
 
 .row-footer {
-  text-align: justify;
   display: inline-block;
+  color: white;
   line-height: 2;
+  text-align: justify;
   vertical-align: top;
   width: 40vh;
-  color: white;
 }
 
 .footer-below {
@@ -285,9 +225,9 @@ footer {
 
 .footer-below ul li i {
   border: 1px solid white;
-  padding: 10px ;
   border-radius: 50%;
   color: white;
+  padding: 10px ;
 }
 
 .row-footer figure img {
@@ -304,4 +244,4 @@ hr {
   color: #FF00BF !important;
 }
 
-/***********Fin-Footer*****************/
+/*-----Fin footer----*/
