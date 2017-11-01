@@ -23,6 +23,9 @@
    margin: 0;
  }
 
+.p-0 {
+  padding: 0;
+}
  .size-title {
    font-size: 32px;
  }
@@ -31,13 +34,7 @@
    font-size: 14px;
  }
 
-
-
  /**********HEADER************/
-#header {
-  /*background-color: #24103B;*/
-}
-
 .nav-bar {
   background-color: #24103B;
   height: 100px;
@@ -74,11 +71,11 @@
 /*----jumbotrom------*/
 #jumbotrom {
   background-image: url("../assets/images/hero.gif");
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 80%;
   height: 550px;
   width: 100%;
   position: relative;
-
 }
 
 .container-jumbotrom {
@@ -118,9 +115,45 @@
   background-color: #FF00BF;
   border-radius: 5px;
 }
-
-
 /*----fin - jumbotrom------*/
+
+/***********Seccion-fluid****************/
+#section-fluid {
+  background-color: #71278D;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-fluid {
+  height: auto;
+  text-align: center;
+  width: auto;
+  color: white;
+}
+
+.row {
+  box-sizing: content-box;
+  display: inline-block;
+  margin-top: 10vh;
+  vertical-align: middle;
+}
+
+.container-fluid .row:first-child {
+  text-align: justify;
+}
+
+.container-fluid .row p {
+  margin-bottom: 8vh;
+}
+
+.size-img-fluid img {
+  height: 60vh;
+  width: 70vh;
+  padding-top: 5vh;
+}
+
+/***********Fin-Seccion-fluid****************/
+
 
 .container-l {
   background-color: white;
@@ -227,12 +260,13 @@ footer {
 }
 
 .container-footer {
-  margin-left: 10vh;
-  padding-top: 5vh;
+  padding: 5vh;
+  text-align: center;
+  color: white;
 }
 
 .row-footer {
-  align-content: center;
+  text-align: justify;
   display: inline-block;
   line-height: 2;
   vertical-align: top;
@@ -240,49 +274,34 @@ footer {
   color: white;
 }
 
+.footer-below {
+  margin-top: 10vh;
+}
+
+.footer-below ul li {
+  display: inline-block;
+  margin-right: 5vh;
+}
+
+.footer-below ul li i {
+  border: 1px solid white;
+  padding: 10px ;
+  border-radius: 50%;
+  color: white;
+}
 
 .row-footer figure img {
   height: 30px;
   width: 90px;
 }
 
-.footer-below  {
-
-  display: block;
-  color: white;
-  text-align: center;
-}
-.footer-below ul {
-  width: 50vh;
-  margin-left: 85vh;
-}
-
-.footer-below ul li {
-  display: inline-block;
-  border: 1px solid white;
-  border-radius: 15px;
-  height: 30px;
-  width: 30px;
-  margin-left: 5px;
-  box-sizing: content-box;
-  text-align: center;
-}
-
-.footer-below ul li i {
-  color: white;
-  margin-top: 5px;
-}
-
 hr {
-  width: 20vh;
+  margin-top: 5vh;
+  width: 100vh;
 }
 
-.footer-below ul li:hover {
-  color: #FF00BF;
+.list li a:hover {
+  color: #FF00BF !important;
 }
-
-
-
-
 
 /***********Fin-Footer*****************/
