@@ -128,7 +128,7 @@ body {
 
 /*     Seccion-fluid    */
 #section-fluid {
-  background-color: #71278D;
+  background: linear-gradient(#76278F, #2B1E66);
   height: 100vh;
   width: 100%;
 }
